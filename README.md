@@ -15,6 +15,9 @@ approach on cascading letter combinations.
 
 Or other ideas on how such a simple game could be over-engineered in the search for automated solutions :)
 
+The original word corpus was lifted from this Kaggle challenge on word frequency
+* https://www.kaggle.com/rtatman/english-word-frequency
+
 ## Setting up the game
 There really is nothing to it.  Start a game.  No settings:
 > game = wordle_game()
