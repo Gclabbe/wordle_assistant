@@ -52,10 +52,14 @@ would be entered into the game as:
 The system will then build a new corpus based on this feedback and make new suggestions for the next word.
 
 ## Updates
-
+v0.00:  2/21/2022) Initial check-in and some basic documentation
 
 ## Ideas
-
+* Keep track of each word / feedback combo from each round
+* Save output on winning round
+    * Date
+    * Word X entry / feedback
+* Save running score tally    
 
 ## How does recommend_next work?
 Parameters that can be passed to recommend_next
