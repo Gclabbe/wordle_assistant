@@ -2,7 +2,18 @@
 Playing with code and some basic word theory to assist in guesses for the NYT Wordle game
 
 ## Overview
+In the never ending pursuit of coding strength and efficiency, sometimes seemingly simple tasks
+become a great exercise to remember the basics.
 
+There is nothing exciting in this code.  It establishes a class that represents a game and then takes
+in feedback from the game to create a smaller and smaller list of options for the next guess towards
+finding the final word in the puzzle.
+
+This is done purely for fun and to play a bit with some word theory (very basic right now).  Maybe
+eventually moving towards a prediction of scores for each possible word using a nearest-neighbors
+approach on cascading letter combinations.
+
+Or other ideas on how such a simple game could be over-engineered in the search for automated solutions :)
 
 ## Setting up the game
 There really is nothing to it.  Start a game.  No settings:
@@ -10,7 +21,7 @@ There really is nothing to it.  Start a game.  No settings:
 
 Then pass it a corpus of words that are stored in a csv file as "word", "count".  And tell the game
 to prpare the data:
-> game.load_data(folder, filename)
+> game.load_data(folder, filename)  
 > game.prep_data()
 
 Now, if you want to see what the system recommends as the best options for your first word:
