@@ -1,0 +1,15 @@
+name: wordle
+
+channels:
+  - conda-forge
+
+dependencies:
+  - python=3.9
+  - pandas
+  - matplotlib
+  - plotly
+  - dash
+  - dask
+  - jupyterlab
+  - pip:
+      - npm
